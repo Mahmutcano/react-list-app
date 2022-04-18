@@ -1,0 +1,52 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  color: rgb(219, 193, 243);
+}
+.header h1 {
+  font-size: 6rem;
+  font-family: "Indie Flower", cursive;
+}
+
+.addList {
+  width: 100%;
+}
+
+.showList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.showList input {
+  border: none;
+}
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.linedtext {
+  text-decoration: line-through;
+}
+div.d-flex.justify-content-center button {
+  padding: 3px;
+  margin: 2px 2px 2px 2px;
+  font-size: small;
+}
+div.d-flex.justify-content-center p {
+  padding: 1px 1px 0px 0px;
+  margin: 0px 5px;
+  font-size: small;
+}
